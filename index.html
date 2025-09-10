@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- nav-bar  -->
+  <section id="nav-bar" class="container">
+    <header class="nav-bar">
+      <div class="brand"><a href="#hero"><h1>Web Project</h1></a></div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#hire">Hire Me</a></li>
+        </ul>
+      </div>
+    </header>
+  </section>
+  <!-- End nav-bar  -->
+
+  <!-- Hero Section  -->
+  <section id="hero" class="hero container">
+    <div class="hero-info">
+      <h1 class="hero-info-heading">I Design <br>Your Dream</h1>
+      <p class="hero-info-subheading">I am a web designer student</p>
+      <a href="#" type="button" class="hero-info-button">Portfolio</a>
+    </div>
+    <div class="hero-img">
+      <img src="data:image/png;base64,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" alt="">
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About section  -->
+  <section id="about" class="about container">
+    <div class="about-info">
+      <h1 class="about-info-heading">About Me</h1>
+      <p class="about-info-desc">Hello, my name is Jyoti, and I am currently a first-year undergraduate student at Delhi University, pursuing a Bachelor’s degree in Commerce. I recently completed my higher secondary education.In present I learning about computer where I developed a strong interest in Web desining and coding.</p>
+      <a href="#" type="button" class="about-info-button">Download Resume</a>
+    </div>
+    <div class="about-img">
+      <div class="about-img-wrapper">
+        <img src="./images/img-2.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End About section  -->
+
+  <!-- Service Section  -->
+  <section id="services" class="services container">
+    <div class="services-header">
+      <h1 class="services-header-heading">services</h1>
+      <p class="services-header-desc">I have knowledge about Microsoft word, Power point presentation, microsoft excel and some basic knowledge about Power BI.</p>
+    
+    </div>
+    <div class="services-info">
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fa-palette"></i>
+            <h1 class="service-front-heading">CSS</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">CSS</h1>
+            <p class="service-back-desc">CSS stands for Cascading Style Sheets, a stylesheet language used to describe how HTML elements should appear on screen, in print, or other media formats.The term “cascading” refers to the way CSS rules are applied based on priority and specificity—this determines which styles take precedence when multiple rules target the same element</p>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fa-laptop-code"></i>
+            <h1 class="service-front-heading">Font End Developer</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">Front End Developer</h1>
+            <p class="service-back-desc">A front-end developer is a software professional who builds and maintains the user-facing parts of websites or applications—the elements you see and interact with in your browser. They use languages like HTML, CSS, and JavaScript to bring designs to life and ensure a smooth user experience.</p>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fa-building"></i>
+            <h1 class="service-front-heading">Branding</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">Branding</h1>
+            <p class="service-back-desc">I have knowledge about MS word ,Ms ppt,advanced Excel(Pivot table, Employees salary sheet, V lookup, H lookup , image lookup).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section  -->
+
+  <!-- Hire Section  -->
+  <section id="hire" class="hire container">
+    <h1 class="hire-heading">Hire me to build your dream website</h1>
+    <a href="#" type="button" class="hire-button">Hire Me !!</a>
+  </section>
+  <!-- End Hire Section  -->
+
+  <!-- Footer section  -->
+  <footer id="footer" class="footer container">
+    <div class="footer-contact">
+      <h1 class="footer-contact-heading">Contact With Me</h1>
+      <p class="footer-contact-info">Email: jyoti@gamil.com</p>
+      <p class="footer-contact-info">Mobile: 234 234 2342</p>
+    </div>
+    <div class="footer-social-follow">
+      <h1 class="footer-social-follow-heading">Follow Me</h1>
+      <div class="footer-social-icon">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram-square"></i></a>
+        <a href="#"><i class="fab fa-behance-square"></i></a>
+        <a href="#"><i class="fab fa-dribbble-square"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer section  -->
+  <script src="./app.js"></script>
+</body>
+</html>
